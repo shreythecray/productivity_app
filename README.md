@@ -90,6 +90,8 @@ There are two function parameters: `context` and `req` where:
 
 # Integrating APIs
 
+![my fav API](https://cataas.com/cat/cute/says/bit-project)
+
 # Building a Notification System
 
 ### Mapping It Out
