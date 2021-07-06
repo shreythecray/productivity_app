@@ -11,3 +11,5 @@ module.exports = async function (context, req) {
         body: responseMessage
     };
 }
+
+//function endpoint: https://productivity-app.azurewebsites.net/api/productivity_app
