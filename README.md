@@ -39,7 +39,7 @@ git push
 
 Follow Microsoft's documentation to [create a new Azure function locally](https://docs.microsoft.com/en-us/azure/developer/javascript/tutorial/vscode-function-app-http-trigger/tutorial-vscode-serverless-node-create-local).
 
-Understand the template code:
+Here's what the template code will look like:
 
 ```javascript
 module.exports = async function (context, req) {
@@ -57,6 +57,18 @@ module.exports = async function (context, req) {
 }
 ```
 
+<details><summary>Understanding the Template Code</summary>
+<br>
+
+`context.log` statements are similar to console.log statements but can be found in the [Azure Portal](portal.azure.com) log for your function
+1. Go to the Azure Portal and log in
+2. Once you have created ***and deployed*** your Azure function, you should see it appear in your recent resources
+3. Click on it and navigate to the function you just created
+4. Click on "Code and Test"
+5. Open the log at the bottom of the page
+
+<br><br>
+</details>
 
 # Integrating APIs
 
