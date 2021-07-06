@@ -34,6 +34,8 @@ git push
 
 # Integrating APIs
 
+![my fav API](https://cataas.com/cat/cute/says/bit-project)
+
 # Building a Notification System
 
 ### Mapping It Out
