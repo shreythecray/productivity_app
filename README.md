@@ -67,6 +67,7 @@ There are two function parameters: `context` and `req` where:
 - `req` is an object that holds data related to how the request was made specifically [> read more](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node?tabs=v2#http-triggers-and-bindings)
 
 `context.log` statements are similar to console.log statements but can be found in the [Azure Portal](portal.azure.com) log for your function. You want to place context.log statements to check for possible errors in your code.
+
 1. Go to the Azure Portal and log in
 2. Once you have created ***and deployed*** your Azure function, you should see it appear in your recent resources
 3. Click on it and navigate to the function you just created
@@ -82,7 +83,7 @@ There are two function parameters: `context` and `req` where:
 
 `req.body` or `req.body.[key]` is a valye that comes from a body sent with the HTTP request that is being made
 
-`context.res` is the response that 
+`context.res` is the response that is sent back when someone makes a request to it
 
 <br><br>
 </details>
