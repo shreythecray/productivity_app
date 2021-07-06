@@ -1,3 +1,8 @@
+# Preparing
+1. [Download VS Code](https://code.visualstudio.com/download)
+2. [Get started](https://azure.microsoft.com/en-us/get-started/) with Azure and create an Azure account for free
+3. Install the [Azure Tools extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack) on VS Code
+
 # Working with GitHub through Terminal Commands
 
 Clone this repo with the `clone` command:
@@ -30,7 +35,7 @@ git push
 
 # Understanding Serverless
 
-# Creating an Azure Function
+# Creating an Azure Function Locally
 
 # Integrating APIs
 
