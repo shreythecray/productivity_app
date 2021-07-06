@@ -81,9 +81,9 @@ There are two function parameters: `context` and `req` where:
 - E.g. single parameter: https://[endpoint]?parameter_key=parameter_value
 - E.g. multiple parameters: https://[endpoint]?fruit=apple&game=monopoly&color=green&expensive=true
 
-`req.body` or `req.body.[key]` is a valye that comes from a body sent with the HTTP request that is being made
+`req.body` or `req.body.[key]` is a value that comes from a body sent with the HTTP request that is being made
 
-`context.res` is the response that is sent back when someone makes a request to it
+`context.res` is the response that is sent back when someone makes a request to this function url/endpoint
 
 <br><br>
 </details>
@@ -92,8 +92,38 @@ There are two function parameters: `context` and `req` where:
 
 ![my fav API](https://cataas.com/cat/cute/says/bit-project)
 
+### Installing Node-Fetch
+
+URLSearchParams: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+
+https://www.npmjs.com/package/dotenv
+
+Install: `npm install dotenv`
+
+Usage: `require('dotenv').config()`
+
+### [NewsAPI](https://newsapi.org/)
+- Endpoints:
+    - Everything: https://newsapi.org/v2/everything
+    - Top Headlines: https://newsapi.org/v2/top-headlines
+    - Top Headlines - Sources: https://newsapi.org/v2/top-headlines/sources
+- API Key on website upon registrations
+- [Parameters](https://newsapi.org/docs/endpoints) based on specific endpoint
+
+### Storing Keys
+
 # Building a Notification System
 
 ### Mapping It Out
+
+#### Twilio
+
+#### Courier
+
+Set up
+
+Get code snippet
+
+Change `import { CourierClient } from "@trycourier/courier";` to `const { CourierClient } = require("@trycourier/courier");` and install [Courier npm package](https://www.npmjs.com/package/@trycourier/courier) `npm install @trycourier/courier`
 
 ### Simplifying Things

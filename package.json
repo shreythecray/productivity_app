@@ -1,10 +1,28 @@
 {
   "name": "productivity_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. [Download VS Code](https://code.visualstudio.com/download) 2. [Get started](https://azure.microsoft.com/en-us/get-started/) with Azure and create an Azure account for free 3. Install the [Azure Tools extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack) on VS Code",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "devDependencies": {}
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreythecray/productivity_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreythecray/productivity_app/issues"
+  },
+  "homepage": "https://github.com/shreythecray/productivity_app#readme",
+  "dependencies": {
+    "@trycourier/courier": "^2.3.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
 }
